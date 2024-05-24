@@ -29,9 +29,9 @@ OWNER_ID = int(getenv("OWNER_ID", 6563936773))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "music06")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-7a607b1b-0b00-4c2d-a664-2a481499b4d7")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
